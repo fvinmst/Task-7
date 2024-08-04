@@ -113,13 +113,13 @@ body {
 
 .contact-item i {
     font-size: 24px;
-    color: #fff; /* Warna ikon putih */
+    color: #fff; 
     margin-right: 15px;
     padding: 10px;
-    background-color: #00c853; /* Warna latar belakang hijau */
+    background-color: #00c853; 
     border-radius: 4px;
-    width: 16px;  /* Ukuran tetap untuk lebar */
-    height: 16px; /* Ukuran tetap untuk tinggi */
+    width: 16px;
+    height: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,7 +129,7 @@ body {
     font-size: 24px;
     color: #00c853;
     background: none;
-    padding: 0; 
+    padding: 0;     
 }
 
 .contact-item h3 {
@@ -144,11 +144,18 @@ body {
     color: #666;
 }
 
+.social-links {
+    display: flex;
+    gap: 10px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .social-links a {
     color: #00c853;
-    margin-right: 10px;
-    text-decoration: none;
-    font-size: 30px;
+    text-decoration: none; /* Menghilangkan garis bawah */
+    font-size: 20px;
+    display: inline-block;
 }
 
 .contact-form {
